@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML More, updated title</title>
+    <link rel="stylesheet" href=
+  </head>
+  <body>
+    <nav class="nav-main">
+      <ul>
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="container-form">
+        <!-- Build dynamic query strings using -->
+          <form action="https://imbd.com/find">
+            <!-- label with for attribute, and id on input -->
+            <p><class> for="query">Enter Address:</label></p>
+            <p><input id="query" type="text" name="q"></p>
+
+          <!-- label wrappped around the entire bit -->
+          <label>
+              <p>Enter a search category</p>
+              <p>
+                <select name="s">
+                  <option value="all">All</option>
+                  <option value="ep">Tv Episodes</option>
+                  <option value="tt">Title</option>
+                  <option value="nm">Name</option>
+                  <option value="co">Companies</option>
+                  <option value="kw">Keywords</option>
+                </select>
+              </p>
+          </label>
+
+          <p><button type="submit">Submit</button></p>
+      </form>
+      <p><a href="https://www.imdb.com/find?ref_=nv_sr_fn&q=breaking+bad&s=all"></p>
+    </section>
+
+  </body>
+</html>

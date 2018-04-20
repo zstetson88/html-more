@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font: normal 16px Helvetica sans-serif
+}
+
+.nav-main {
+    background: grey;
+}
+/*
+display: inline-block,
+elements remain inline,
+but have block-like qualities
+*/
+.nav-main li {
+    display: inline-block;
+}
+
+.nav-main li a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+/* pseudo selector */
+.nav-main li a:hover {
+    color: red;
+}
+
+.nav-main li a:active {
+    background-color: blue;
+}
+
+.container-form {
+    border: 1px solid red;
+    max-width: 800px;
+    margin: 20px 10px;
+}
